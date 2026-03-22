@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv
+
+# Data (large/generated — rebuild with scripts)
+data/*.db
+data/*.csv
+data/*.zip
+data/23298467/
+data/orderly_benchmark.zip
+data/.DS_Store
+
+# CRD raw data
+crd/reactionSmilesFigShare2025.txt
+crd/reactionSmilesFigShare2025.txt.zip
+crd/crd_*.zip
+crd/__MACOSX/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+
+# Keep the production augmented db
+!data/reactions_augmented_combined.db

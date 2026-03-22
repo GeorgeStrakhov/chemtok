@@ -1,0 +1,17 @@
+[project]
+name = "chem-fil"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "groq>=1.1.1",
+    "httpx>=0.28.1",
+    "numpy<2",
+    "pandas>=3.0.1",
+    "pyarrow>=23.0.1",
+    "python-dotenv>=1.2.2",
+    "rdkit-pypi>=2022.9.5",
+    "tqdm>=4.67.3",
+    "uvicorn>=0.42.0",
+]
